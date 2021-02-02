@@ -1,0 +1,25 @@
+.center{
+    text-align: center;
+}
+.styling{
+    padding: 5rem;
+    padding-top: 2rem;
+    text-align: justify;
+    padding-bottom: 2rem;
+}
+
+
+
+h1{
+    text-align: center;
+    color: #440047;
+}
+
+@media only screen and (max-width:576px){
+    .styling{
+        padding: 1rem !important;
+        padding-top: 2rem;
+        text-align: justify;
+        padding-bottom: 2rem;
+    }
+}

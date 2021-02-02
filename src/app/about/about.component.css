@@ -1,0 +1,41 @@
+.styling{
+    padding: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 0 !important;
+    text-align: justify;
+}
+
+.center{
+    text-align: center;
+    padding: 30px;
+}
+
+
+h1{
+    text-align: center;
+    color: #440047;
+}
+
+/* .img {
+    margin: 0 auto; 
+    float: none; 
+
+}
+
+.img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    } */
+@media only screen and (max-width:567px){
+    .styling{
+        padding: 1rem !important;
+        padding-top: 2rem;
+        padding-bottom: 0 !important;
+        text-align: justify;
+    }
+
+    .center{
+        text-align: center;
+        padding:0 !important;
+    }
+}

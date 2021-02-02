@@ -1,0 +1,74 @@
+.faq-image {
+    background-image: url("/assets/carousel/baby4.jpg");
+    background-color: #cccccc;
+    height: 300px;
+    /* background-position: center; */
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+
+  .faq-text{
+    position: absolute;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+    color: #2989A6;
+    text-shadow: 0 0 3px rgb(247, 221, 75), 0 0 5px #0000FF;
+    width: 100%;
+    text-align: center;
+    padding: 8rem;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+  }
+
+.styles{
+  padding: 2rem 5rem;
+  margin: 2rem 0rem;
+}  
+
+.info{
+  border: 1px solid blueviolet; 
+  padding: 50px;
+  text-align: justify
+}
+
+@media only screen and (max-width:767px){
+
+  .pd-0{
+    padding: 0 ;
+  }
+  .faq-image {
+    background-image: url("/assets/carousel/baby4.jpg");
+    background-color: #cccccc;
+    height: 255px !important;
+    /* background-position: center; */
+  width: 100% !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+    position: relative;
+  }
+    
+h1{
+  font-size: 1.5rem;
+}
+
+.faq-text{
+  height: 255px !important;
+  padding: 5rem;
+}
+.styles{
+  padding: 20px 30px !important;
+  margin: 1rem 0rem !important;
+}  
+
+.info{
+  border: 1px solid blueviolet;
+  padding: 25px !important;
+  text-align: justify ;
+}
+}

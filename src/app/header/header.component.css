@@ -1,0 +1,133 @@
+.icon {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    padding-right: 10px;
+  }
+
+  .mr-auto, .mx-auto {
+    margin-right: auto!important;
+    margin-left: 1rem;
+}
+
+.alignment{
+   display: inline-flex;
+}
+.bg{
+  background-color: #fff;
+}
+.top{
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.navigatebar{
+  color: white;
+}
+
+.navbar-collapse{
+  margin-left: 2rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #440047 !important;
+  width: 100%;
+}
+.navbar-nav .nav-link .material-icons:hover{
+  color: #da9f08;
+}
+/* .navbar-dark .navbar-nav .nav-link:hover{
+  color:blueviolet !important;
+} */
+.dropdown:hover .dropdown-menu {display: block;}
+.dropdown-toggle::after {
+  padding-bottom: 2px;
+}
+
+.btnn{
+  background-color: white;
+  color: #440047;
+}
+.btnn:hover{
+  color: #da9f08;
+  background-color: #440047;
+}
+
+/* .list .ani:visited{
+  background-color: black;
+} */
+
+/* ul > li.current-menu-item a:after{
+    outline: blue auto 5px; 
+} */
+ /* ul> li .nav-item a:after{
+  outline: blue auto 5px; 
+} */
+
+.nav-item {
+  border: none;
+  outline: none;
+  padding: 0px 0px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.active, .nav-item:hover {
+  background-color: #666;
+  color: white;
+}
+.list .ani:hover:after {
+  transform: translate(-2%, -56%);
+  transition: .5s;
+}
+.list .ani {
+  position: relative;
+  overflow: hidden;
+}
+.list .ani:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  background:#da9f08;
+  z-index: 999;
+  top: 100%;
+  left: 0;
+  transform: translate(-100%, -56%);
+  transition: .5s;
+}
+@media only screen and (max-width: 576px) {
+  .search{
+    width: auto !important;
+  }
+
+  .btnn{
+    margin-left: 1rem;
+  }
+  .nav-tabs{
+    border-bottom:none !important;
+  }
+  .navbar-collapse{
+    margin-left: 0 !important;
+  }
+  .top{
+    background-color: rgb(65, 64, 64);
+    color: white;
+    padding: 0 !important;
+  }
+  
+  
+}
+
+@media only screen and (min-width: 767px) {
+
+  .nav-tabs{
+    border-bottom: 1px solid #dee2e6;
+  }
+
+ 
+  
+
+}
+

@@ -1,0 +1,62 @@
+.style{
+    padding: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h3 {
+  
+    height: 50px;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s ;
+  }
+  
+  #move {animation-timing-function: ease;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 400px;}
+}
+
+.bg-custom{
+    background-color: #440047;
+    color: white;
+    }
+.border-custom{
+        border: 1px solid #440047
+    }
+
+ .btn-custom{
+     background-color: #440047;
+     color: white;
+ }   
+
+/* @media only screen and (max-width:576px){
+    .movement{
+        font-size: 1.5rem;
+    text-align: center;
+    animation: none;
+    }
+} */
+
+@media only screen and (max-width: 767px){
+    .movement{
+        font-size: 1.5rem;
+    text-align: center;
+    animation: none;
+    }
+
+    .style{
+        padding: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+        .input{
+            margin-left: 1rem;
+            width: 89%;
+        }
+        .lab{
+            margin-left: 1rem;
+        }
+}

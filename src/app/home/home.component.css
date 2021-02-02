@@ -1,0 +1,148 @@
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+/* .carousel{
+    margin:1px;
+} */
+.styling{
+    margin: 15px;
+    
+}
+
+.carousel-inner img{
+width: 100%;
+height: 50%;
+}
+
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+}
+.card:hover{
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+/* .gallery-img{
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+} */
+/* .gallery-img:hover{
+    transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+} */
+figure{
+    position: relative;
+    width:100%;
+    height:60%;
+    margin: 0 !important;
+}
+.bor-radius{
+    border-radius: 10%;
+    transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.50), 0 4px 8px rgba(0,0,0,.40);
+padding: 0.5rem;
+}
+.fixed-wrap{
+    clip:rect(0, auto, auto, 0);
+    position:absolute;
+    top:0%;
+    left: 0%;
+    width:100%;
+    Height:100%;
+}
+
+#fixed{
+    background-image: url('/assets/card/2.jpg');
+    position: fixed;
+    display:block;
+    top:0%;
+    left: 0%;
+    width:100%;
+    Height:100%;
+    background-size: cover;
+    background-position: center;
+    -webkit-transform: translateZ(0) ;
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+.container {
+    height: 100px;
+    position: relative;
+  }
+  
+  .row1{
+    margin-left: 30rem;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .center{
+    text-align: center;
+    padding-right: 5rem;
+    padding-left: 5rem;
+  
+  }
+  .styling{
+    padding: 2rem;
+    text-align: justify;
+    justify-content: space-around;
+}
+
+.carouse{
+    padding: 0 !important;
+}
+
+.btn-custom{
+background-color: #440047;
+color: white;
+}
+
+.btn-custom:hover{
+background-color: white;
+color: #440047;
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+h1{
+   
+    text-align: center;
+    color: #440047;
+}
+
+
+
+
+/* .back:hover{
+    color:#fff
+} */
+@media only screen and (max-width: 767px){
+    h1{
+        text-align: center;
+    }
+
+    .gallery-img{
+        padding-bottom: 1rem;
+    }
+
+    .center{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+      
+      }
+
+      .styling{
+        padding: 0 !important;
+        text-align: justify;
+        justify-content: space-around;
+    }
+
+    .foot{
+        padding: 0 !important;
+    }
+}

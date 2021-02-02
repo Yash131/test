@@ -1,0 +1,100 @@
+.icon {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    padding-right: 10px;
+  }
+/* 
+.space{
+    margin: 2px;
+}   */
+
+.space{
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+.fab{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.fa-facebook-square{
+    color: #fff;
+    cursor: pointer;
+}
+
+.fa-instagram{
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.fa-youtube{
+    color: #fff;
+    cursor: pointer;
+}
+
+.fa-facebook-square:hover,
+.fa-instagram:hover,
+.fa-youtube:hover{
+    color: #440047;
+}
+
+/* .modal{
+    display: block !important; 
+}
+
+
+
+ .modal-dialog{
+    overflow-y: initial !important
+} */
+
+.modal-body{
+    height: 60vh;
+    overflow-y: auto;
+}  
+
+.fonting{
+    font-style: italic;
+    text-align: center;
+    font-size: x-large;
+}
+.back{
+    background-color:#440047;
+    color: white;
+}
+
+.img{
+    background-color: black;
+    color: white;
+}
+
+.bg{
+    background-color: black;
+  }
+
+.img:hover{
+    background-color: white;
+    color: #440047;
+}
+
+@media only screen and (max-width: 576px){
+    .bttn
+{text-align: center;
+padding-bottom: 10px;
+}
+
+.space{
+    padding-left: 0 !important;
+}
+
+.foot{
+    padding: 0 !important;
+}
+
+
+}
