@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class MailerServiceService {
 
-  URL = 'http://localhost:3000/'
+  URL = 'https://nodemailer-script.herokuapp.com/'
 
   constructor(private http: HttpClient) { }
 
